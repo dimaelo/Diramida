@@ -112,19 +112,13 @@ Open collaboration is encouraged.
 
 Links
 
-(You can replace or extend these with your real links)
+[(You can replace or extend these with your real links)
 
-GitHub: https://github.com/Diramida
-
-YouTube: https://www.youtube.com/@Diramida
-
-Twitch: https://www.twitch.tv/Diramida
-
-X (Twitter): https://x.com/Diramida
-
-Instagram: https://www.instagram.com/Diramida
-
-Website: https://diramida.org
+(Web): https://sites.google.com/view/diramida/
+(Discord):  https://discord.gg/uDyNsfDn
+(Telegram): https://t.me/+I-u4TeO_eTA0MWZi
+(LinkedIn): https://www.linkedin.com/in/diramida/
+(GoFundMe): https://www.gofundme.com/f/the-ice-harvesters
 
 Tags
 
