@@ -1,29 +1,32 @@
 # 🔒 Security Policy
 
+---
+
 ## Reporting Security Vulnerabilities
 
 **Do not open public GitHub issues for security vulnerabilities.**
 
-If you discover a security vulnerability in Diramida, please report it responsibly:
+If you discover a security vulnerability, please report it responsibly to the maintainers.
 
-### Contact Information
+### How to Report
 
-**Email:** [Create GitHub security advisory or contact maintainer]  
-**Response Time:** Within 48 hours  
-**Resolution Time:** 14-30 days depending on severity
+1. **Email:** dimaelo@github.com (or via GitHub private security tab)
+2. **Response time:** Within 48 hours
+3. **Resolution time:** 14-30 days depending on severity
 
-### Reporting Details
+### What to Include
 
-Please include:
-1. Description of the vulnerability
-2. Affected versions or components
-3. Steps to reproduce (if possible)
-4. Potential impact
-5. Suggested fix (if available)
+Please provide:
+- Description of the vulnerability
+- Affected versions or components
+- Steps to reproduce (if possible)
+- Potential impact or severity
+- Suggested fix (if you have one)
+- Your contact information (optional)
 
 ---
 
-## What We Consider Vulnerabilities
+## What We Consider
 
 ### In Scope
 - Code injection or execution flaws
@@ -32,42 +35,20 @@ Please include:
 - Denial of service attacks
 - Cryptographic weaknesses
 - Dependency vulnerabilities
+- Configuration security issues
 
 ### Out of Scope
 - Theoretical vulnerabilities without practical impact
 - Social engineering or user error
-- Third-party service issues
+- Issues in third-party services
 - Vulnerabilities requiring physical access
-- Outdated dependency notifications only
+- Outdated dependency notifications (use Dependabot)
 
 ---
 
-## Security Practices
+## Responsible Disclosure
 
-### Code Review
-- Pull requests undergo security review
-- Sensitive code has additional scrutiny
-- Automated scanning for known vulnerabilities
-
-### Dependencies
-- Regular updates of third-party libraries
-- Security alerts monitored
-- Outdated dependencies flagged
-
-### Documentation
-- Security guidelines documented
-- Safe usage patterns provided
-- Known limitations disclosed
-
-### Transparency
-- Security fixes disclosed responsibly
-- CVEs filed for critical issues
-- CHANGELOG updated with security fixes
-
----
-
-## Responsible Disclosure Timeline
-
+### Our Timeline
 1. **Report received** — Acknowledged within 24 hours
 2. **Investigation** — Details verified (2-3 days)
 3. **Fix development** — Solution created (5-14 days)
@@ -75,62 +56,95 @@ Please include:
 5. **Release** — Patch published
 6. **Disclosure** — Details shared publicly
 
-We ask that you:
-- Give us reasonable time to fix issues
-- Do not publicly disclose until fix is available
-- Provide additional time for dependent projects
+### We Ask That You
+- Give us reasonable time to fix before public disclosure
+- Do not share details publicly until fix is available
+- Allow time for dependent projects to update
 - Work with us to coordinate disclosure
 
 ---
 
-## Security Updates
+## Security Practices
 
-### Notification
-- Security fixes announced in CHANGELOG. md
-- Maintainers notified via GitHub
-- Community updated via Discord
+### Code Review
+- Pull requests reviewed for security issues
+- Sensitive code receives additional scrutiny
+- Automated scanning for vulnerabilities
+- Dependency auditing
 
-### Applying Updates
-- Keep dependencies current
-- Subscribe to security alerts
-- Review release notes for security fixes
+### Dependencies
+- Regular updates of third-party libraries
+- Security alerts monitored continuously
+- Outdated dependencies flagged and addressed
+- Minimal dependency footprint maintained
+
+### Documentation
+- Security guidelines clearly documented
+- Safe usage patterns provided
+- Known limitations disclosed transparently
+- Best practices shared
+
+### Transparency
+- Security fixes disclosed responsibly
+- CVEs filed for critical issues (when applicable)
+- CHANGELOG. md updated with security fixes
+- Community notified promptly
 
 ---
 
-## Best Practices for Users
+## User Best Practices
 
 ### When Using Diramida
-- Keep to latest version for security patches
+- Keep to the latest version for security patches
 - Review code before running in production
 - Report suspicious behavior
 - Follow documented security guidelines
+- Use secure authentication practices
 
 ### For Contributors
 - Follow secure coding practices
 - Test for common vulnerabilities
-- Use approved libraries and dependencies
+- Use approved, vetted libraries
 - Disclose potential issues early
+- Keep dependencies updated
 
 ---
 
 ## Security-Related Documentation
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) — Community guidelines
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Community standards
-- [docs/SECURITY_GUIDELINES.md](docs/SECURITY_GUIDELINES.md) — Implementation guidelines (future)
+- [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines
+- Future:  Security implementation guide
+
+---
+
+## FAQ
+
+**Q: What if I'm not sure if something is a security issue?**  
+A: Report it anyway. It's better to be cautious.  We'll determine scope together.
+
+**Q: Can I discuss this in public channels first?**  
+A: Please don't. Direct reports to maintainers privately instead.
+
+**Q: Will my report be kept confidential?**  
+A: Yes.  Only relevant parties are informed until a fix is released.
+
+**Q: What if someone exploits a known vulnerability?**  
+A:  Retaliation against reporters is strictly prohibited. We support responsible disclosure.
 
 ---
 
 ## Acknowledgments
 
-We recognize and appreciate responsible security researchers who help keep Diramida safe.
+We appreciate researchers and security professionals who responsibly disclose vulnerabilities and help keep Diramida secure.
 
 ---
 
 ## Questions?
 
-For security policy questions:  Contact maintainers via GitHub security tab  
-For general questions: Use Discord or discussions
+- **Security policy questions:** Contact maintainers
+- **General security questions:** Use [Discord](https://discord.gg/uDyNsfDn)
+- **Report vulnerabilities:** See section above
 
 ---
 

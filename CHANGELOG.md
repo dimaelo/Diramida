@@ -1,36 +1,44 @@
 # 📝 Changelog
 
-All notable changes to the Diramida project are documented in this file.
+All notable changes to Diramida are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/)  
+This project adheres to [Semantic Versioning](https://semver.org/)
 
 ---
 
 ## [Unreleased]
 
 ### Added
-- Project infrastructure and documentation framework
-- CONTRIBUTING.md with contribution guidelines
-- CODE_OF_CONDUCT.md for community standards
-- SECURITY. md for vulnerability reporting
-- ROADMAP.md with multi-phase project vision
-- CHANGELOG.md (this file)
-- `docs/` folder structure for expanded documentation
-- GitHub issue and PR templates
-- Repository optimization badges and metadata
+- **Documentation Infrastructure**
+  - Professional README. md with badges and structured sections
+  - CONTRIBUTING.md with clear contribution pathways
+  - ROADMAP.md with multi-phase project timeline
+  - SECURITY.md with vulnerability reporting procedures
+  - CODE_OF_CONDUCT.md for community standards
+  - CHANGELOG.md (this file) for version tracking
+  - . gitignore for standard project ignores
+  - docs/ folder structure for expanded documentation
+
+- **Community Resources**
+  - GitHub issue and PR templates
+  - Community discussion guidelines
+  - Contributor recognition framework
+  - Getting started materials
 
 ### Changed
-- Enhanced README. md with comprehensive overview
-- Improved project description for discoverability
-- Reorganized core concepts for clarity
+- Enhanced README.md with comprehensive overview
+- Improved project metadata and discoverability
+- Restructured core concepts for clarity
+- Added visual elements and tables
 
 ### Planned (Next Release)
-- docs/PROJECT_OVERVIEW.md — Detailed system overview
+- docs/PROJECT_OVERVIEW.md — Comprehensive system overview
 - docs/ARCHITECTURE.md — Technical and conceptual architecture
-- docs/GETTING_STARTED.md — Onboarding guide
-- docs/GLOSSARY.md — Key terminology
-- First tutorial video (YouTube)
-- Community discussion series
+- docs/GETTING_STARTED.md — Beginner onboarding guide
+- docs/GLOSSARY.md — Terminology reference
+- First educational video (YouTube)
+- Community discussion series launch
 
 ---
 
@@ -39,26 +47,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Initial Release
 
 #### Added
-- Initial repository setup
-- LICENSE (Apache 2.0)
-- README.md with project overview
+- Initial repository setup on GitHub
+- Apache 2.0 License file
+- Initial README.md with project overview and philosophy
 - Basic project structure
-- Community links and contact information
+- Community links (Discord, Telegram, YouTube, Twitch, LinkedIn, Twitter, Instagram)
+- Social media and web presence references
 
 #### Features
 - Project vision and mission statement
-- Core areas documentation (AI, Simulation, Technology, Creativity)
-- Core principles documentation
-- Social media and web presence links
+- Core areas documentation (AI, Gaming, Simulation, Technology, Creativity)
+- Core principles (People-centered, Transparent, Interactive, Adaptive, Creative+Logical)
+- Supported and referenced games list
+- Community contribution guidelines overview
+- Social media and communication links
 
 #### Community
-- Discord server link
-- Telegram group link
-- YouTube channel link
-- Twitch stream link
-- LinkedIn profile link
-- Twitter/X account link
-- Instagram profile link
+- Discord server launched
+- Telegram group created
+- YouTube channel established
+- Twitch streaming setup
+- LinkedIn profile created
+- X (Twitter) account active
+- Instagram presence established
 
 ---
 
@@ -67,63 +78,101 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Versioning Scheme
 - **Major (X.0.0)** — Significant milestones, phase transitions, major features
 - **Minor (0.X.0)** — New documentation, features, or research areas
-- **Patch (0.0.X)** — Bug fixes, corrections, clarifications
+- **Patch (0.0.X)** — Bug fixes, corrections, typo fixes, clarifications
 
 ### Before Each Release
+
 1. Update version number in relevant files
-2. Review all changes against roadmap
-3. Update this CHANGELOG.md
-4. Create GitHub release with notes
-5. Announce in community channels
+2. Review all changes against ROADMAP.md
+3. Update this CHANGELOG.md with: 
+   - Date in ISO 8601 format (YYYY-MM-DD)
+   - Version following semantic versioning
+   - Clear sections:  Added, Changed, Removed, Deprecated, Fixed, Security
+   - Links to pull requests and contributors
+4. Create GitHub release with release notes
+5. Announce in community channels (Discord, Telegram, etc.)
+
+### Release Template
+
+```markdown
+## [VERSION] - YYYY-MM-DD
+
+### Added
+- New features or functionality
+
+### Changed
+- Changes to existing functionality
+
+### Deprecated
+- Features becoming obsolete
+
+### Removed
+- Features removed
+
+### Fixed
+- Bug fixes
+
+### Security
+- Security-related fixes
+```
 
 ---
 
-## Future Roadmap
+## Roadmap & Upcoming Releases
 
 ### Phase 1: Foundation (Q4 2025 - Q2 2026)
-- [x] Core documentation
-- [ ] Community setup (Q1 2026)
-- [ ] First research documents (Q1 2026)
-- [ ] Content production begins (Q2 2026)
+- [x] Initial repository setup (0.1.0)
+- [ ] Core documentation (0.2.0) — Q1 2026
+- [ ] First community tools (0.2.1) — Q1 2026
+- [ ] Early research frameworks (0.3.0) — Q2 2026
+- [ ] Content production begins (0.3.1) — Q2 2026
 
 ### Phase 2: Expansion (Q3 2026 - Q4 2026)
-- [ ] Research modules
-- [ ] Tool development
-- [ ] Educational programs
-- [ ] Community growth
+- [ ] Research modules (1.0.0-beta) — Q3 2026
+- [ ] Tool development releases (1.0.0-beta.1+) — Q3-Q4 2026
+- [ ] Educational programs (1.0.0) — Q4 2026
 
 ### Phase 3: Maturation (Q1 2027 - Q3 2027)
-- [ ] Research publications
-- [ ] Technology releases
-- [ ] Educational impact
-- [ ] Global presence
+- [ ] Research publications (1.1.0) — Q1 2027
+- [ ] Technology releases (1.2.0) — Q2 2027
+- [ ] Educational impact (1.3.0) — Q3 2027
 
 ### Phase 4: Scaling (2027+)
-- [ ] Research network growth
-- [ ] Advanced systems
-- [ ] Measurable impact
-- [ ] Sustainability planning
+- [ ] Global network (2.0.0) — Future
+- [ ] Advanced systems (2.1.0+) — Future
 
 ---
 
 ## Contributing
 
-Interested in contributing?  See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Interested in contributing to Diramida? 
 
-All contributors will be recognized in the CHANGELOG.md file. 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on: 
+- How to propose changes
+- Submission procedures
+- Code of conduct
+- Recognition and attribution
 
----
-
-## Historical Notes
-
-**Project Start Date:** December 25, 2025  
-**Repository Created:** December 25, 2025  
-**First Major Refactor:** December 28, 2025  
+All contributors will be recognized in release notes and documentation.
 
 ---
 
-[Unreleased]: https://github.com/dimaelo/Diramida/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/dimaelo/Diramida/releases/tag/v0.1.0
+## Historical Context
+
+| Date | Event | Version |
+|------|-------|---------|
+| 2025-12-25 | Initial repository created | 0.1.0 |
+| 2025-12-28 | Documentation infrastructure added | 0.2.0-dev |
+
+---
+
+## Links
+
+- **Repository:** https://github.com/dimaelo/Diramida
+- **Issues:** https://github.com/dimaelo/Diramida/issues
+- **Discussions:** https://github.com/dimaelo/Diramida/discussions
+- **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Roadmap:** [ROADMAP.md](ROADMAP.md)
 
 ---
 
